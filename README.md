@@ -56,12 +56,13 @@ Results and analysis files:
    - Implementation notebooks first (`/jupyter notebooks/rag_implementation.ipynb` or `/jupyter notebooks/GraphRAG_PIpeline_Literature_Survey_Generation.ipynb`)
    - Evaluation notebooks second (`/jupyter notebooks/bert_evaluation.ipynb` and `/jupyter notebooks/ragas_evaluation.ipynb`)
 
+## References
+- GraphRAG implementation adapted from LlamaIndex (source: https://docs.llamaindex.ai/en/stable/examples/cookbooks/GraphRAG_v2/)
+
 ## Contact
 
 - Ananya Prakash (ananya23@vt.edu)
 - Anushka Sivakumar (anushkas01@vt.edu)
 - Beenaa Salian (beenaamotiram@vt.edu)
 
-## References
-- GraphRAG implementation adapted from LlamaIndex (source: https://docs.llamaindex.ai/en/stable/examples/cookbooks/GraphRAG_v2/)
 
