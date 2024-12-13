@@ -9,7 +9,7 @@ Please find our project report at -
 ### `/jupyter notebooks`
 Main implementation notebooks:
 - `RAG_Pipeline_for_LitReviewGeneration.ipynb`: RAG-based literature survey generation
-- `graph_rag_implementation.ipynb`: Graph-based RAG implementation
+- `GraphRAG_PIpeline_Literature_Survey_Generation.ipynb`: Graph-based RAG implementation
 - `BERTScore_eval.ipynb`: Evaluation using BERTScore metrics
 - `RAGAS_eval.ipynb`: Evaluation using RAGAS framework
 
@@ -33,12 +33,13 @@ Results and analysis files:
   - Graph-based RAG using community detection and summarization
 - Comprehensive evaluation using:
   - BERTScore: semantic similarity metrics
-  - RAGAS: coherence, informativeness, citation coverage, and redundancy metrics
+  - RAGAS: LLM as a judge for coherence, informativeness, citation coverage, and redundancy metrics
 
 ## Requirements
 
 - Python 3.x
 - LlamaIndex
+- HuggingFace
 - Sentence Transformers
 - FAISS
 - NetworkX
@@ -50,9 +51,9 @@ Results and analysis files:
 ## Getting Started
 
 1. Clone the repository
-2. Install dependencies:
+2. Install dependencies
 3. Run notebooks in this order:
-   - Implementation notebooks first (`/jupyter notebooks/rag_implementation.ipynb` or `/jupyter notebooks/graph_rag_implementation.ipynb`)
+   - Implementation notebooks first (`/jupyter notebooks/rag_implementation.ipynb` or `/jupyter notebooks/GraphRAG_PIpeline_Literature_Survey_Generation.ipynb`)
    - Evaluation notebooks second (`/jupyter notebooks/bert_evaluation.ipynb` and `/jupyter notebooks/ragas_evaluation.ipynb`)
 
 ## Contact
@@ -60,3 +61,7 @@ Results and analysis files:
 - Ananya Prakash (ananya23@vt.edu)
 - Anushka Sivakumar (anushkas01@vt.edu)
 - Beenaa Salian (beenaamotiram@vt.edu)
+
+## References
+- GraphRAG implementation adapted from LlamaIndex (source: https://docs.llamaindex.ai/en/stable/examples/cookbooks/GraphRAG_v2/)
+
