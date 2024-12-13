@@ -44,6 +44,7 @@ Results and analysis files:
 - FAISS
 - NetworkX
 - PyTorch
+- PyVis
 - Transformers
 - RAGAS
 - BERTScore
@@ -52,7 +53,8 @@ Results and analysis files:
 
 1. Clone the repository
 2. Install dependencies
-3. Run notebooks in this order:
+3. Acquire LLM API keys (This repository uses Groq and Together)
+4. Run notebooks in this order:
    - Implementation notebooks first (`/jupyter notebooks/rag_implementation.ipynb` or `/jupyter notebooks/GraphRAG_PIpeline_Literature_Survey_Generation.ipynb`)
    - Evaluation notebooks second (`/jupyter notebooks/bert_evaluation.ipynb` and `/jupyter notebooks/ragas_evaluation.ipynb`)
 
