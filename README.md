@@ -4,7 +4,7 @@ Retrieval-based Automated Literature Survey Generation
 
 ## Project Structure
 
-- Please find the preprocessed dataset used (here[https://virginiatech-my.sharepoint.com/:x:/g/personal/beenaamotiram_vt_edu/EZE335jMby9Ck42f1cFtBfgBCIr_APtX0S1dpqTdgngSow?e=gplX8n])
+- Please find the preprocessed dataset used [here](https://virginiatech-my.sharepoint.com/:x:/g/personal/beenaamotiram_vt_edu/EZE335jMby9Ck42f1cFtBfgBCIr_APtX0S1dpqTdgngSow?e=gplX8n)
 
 ### `/jupyter notebooks`
 Main implementation notebooks:
