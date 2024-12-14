@@ -4,8 +4,8 @@ Retrieval-based Automated Literature Survey Generation
 
 ## Project Structure
 
-Please find the dataset used at - 
-Please find our project report at - 
+- Please find the preprocessed dataset used (here[https://virginiatech-my.sharepoint.com/:x:/g/personal/beenaamotiram_vt_edu/EZE335jMby9Ck42f1cFtBfgBCIr_APtX0S1dpqTdgngSow?e=gplX8n])
+
 ### `/jupyter notebooks`
 Main implementation notebooks:
 - `RAG_Pipeline_for_LitReviewGeneration.ipynb`: RAG-based literature survey generation
@@ -60,6 +60,7 @@ Results and analysis files:
 
 ## References
 - GraphRAG implementation adapted from LlamaIndex (source: https://docs.llamaindex.ai/en/stable/examples/cookbooks/GraphRAG_v2/)
+- Arxiv Dataset (https://www.kaggle.com/datasets/Cornell-University/arxiv)
 
 ## Contact
 
